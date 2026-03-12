@@ -12,13 +12,17 @@ header{
     grid-area: header;
     background-color: aqua;
 }
+header:hover{
+    background-color: chocolate;
+}
+
 nav{
     grid-area: nav;
     background-color: bisque;
 }
 main{
     grid-area: main;
-    background-color: greenyellow;
+    background-color: rgb(115, 10, 190);
 }
 footer{
     grid-area: footer;
