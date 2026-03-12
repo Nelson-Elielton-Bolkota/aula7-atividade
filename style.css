@@ -44,3 +44,7 @@ nav li::before{
     content: "---> ";
     color: purple;
 }
+nav li::after{
+    content: " - passe o mouse aq";
+    color: green;
+}
