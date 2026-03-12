@@ -11,9 +11,12 @@
 header{
     grid-area: header;
     background-color: aqua;
+    
 }
 header:hover{
     background-color: chocolate;
+    transform: scale(2);
+    transition: 2s;
 }
 
 nav{
@@ -58,6 +61,7 @@ nav li::after{
 nav li:hover{
     background-color: rgb(158, 217, 21);
     cursor: pointer;
+    transform: scale(1.3);
 }
 
 .box{
