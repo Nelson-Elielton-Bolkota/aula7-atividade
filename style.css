@@ -48,3 +48,7 @@ nav li::after{
     content: " - passe o mouse aq";
     color: green;
 }
+nav li:hover{
+    background-color: rgb(158, 217, 21);
+    cursor: pointer;
+}
